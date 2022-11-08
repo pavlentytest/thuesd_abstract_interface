@@ -6,6 +6,13 @@ public abstract class Test {
 }
 class Base extends Test {
 
+    static int counter = 0;
+    public static final String BUT = "TTT";
+
+    static void printMessage(String str) {
+        System.out.println(str);
+    }
+
     @Override
     void toDo() {
 
